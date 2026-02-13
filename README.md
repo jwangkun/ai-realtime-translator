@@ -1,5 +1,10 @@
 # AI 实时同传翻译
 
+<div align="center">
+  <img src="screenshots/screenshot.png" alt="AI 实时同传翻译界面截图" width="800">
+  <p><em>实时语音转写与翻译界面</em></p>
+</div>
+
 一个基于 Mistral AI 的实时语音转写和翻译应用，支持多国语言的实时同声传译。
 
 ## 功能特点
@@ -12,18 +17,14 @@
 
 ## 支持的语言
 
-- 🇨🇳 中文
-- 🇬🇧 English
-- 🇪🇸 Español
-- 🇫🇷 Français
-- 🇩🇪 Deutsch
-- 🇮🇹 Italiano
-- 🇵🇹 Português
-- 🇯🇵 日本語
-- 🇰🇷 한국어
-- 🇷🇺 Русский
-- 🇸🇦 العربية
-- 🇮🇳 हिन्दी
+| 语言 | 代码 | 语言 | 代码 |
+|------|------|------|------|
+| 🇨🇳 中文 | zh | 🇬🇧 English | en |
+| 🇪🇸 Español | es | 🇫🇷 Français | fr |
+| 🇩🇪 Deutsch | de | 🇮🇹 Italiano | it |
+| 🇵🇹 Português | pt | 🇯🇵 日本語 | ja |
+| 🇰🇷 한국어 | ko | 🇷🇺 Русский | ru |
+| 🇸🇦 العربية | ar | 🇮🇳 हिन्दी | hi |
 
 ## 技术栈
 
@@ -38,7 +39,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/realtime-translator.git
+git clone https://github.com/jwangkun/realtime-translator.git
 cd realtime-translator
 ```
 
@@ -89,6 +90,7 @@ npm run dev
 
 ```
 realtime-translator/
+├── screenshots/           # 截图文件
 ├── server/
 │   └── index.ts          # Express + WebSocket 服务器
 ├── src/
