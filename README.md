@@ -39,7 +39,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/jwangkun/realtime-translator.git
+git clone https://github.com/jwangkun/ai-realtime-translator.git
 cd realtime-translator
 ```
 
